@@ -31,7 +31,7 @@ return [
     ],
 
     'email_search' => [
-        'api_key' => env('EMAIL_SEARCH_API_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzA2NDc0MDQ3LCJleHAiOjE3MDY1NjA0NDd9.mUInymimPRTwPv48EXt3_koBquBRqQSX9Ds-p2anD3Y'),
+        'api_key' => env('EMAIL_SEARCH_API_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzA2NjMwNDI5LCJleHAiOjE3MDY3MTY4Mjl9.4-FHdjtDteDRYEL0nisZe_xqPkSIHTMLd-v-duppOAM'),
         'providers' => [
             [
                 'name' => 'Provider1',

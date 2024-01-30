@@ -8,12 +8,12 @@
 <body>
 <h1>Email Search Results</h1>
 
-@if(isset($results) && count($results) > 0)
+@if(isset($results['data']) && count($results['data']) > 0)
     <ul>
-        @foreach($results as $result)
+        @foreach($results['data'] as $result)
             <li>
-                <strong>Name:</strong> {{ $result['name'] }}<br>
-                <strong>Email:</strong> {{ $result['email'] }}<br>
+                <strong>Provider:</strong> {{ $results['provider'] }}<br>
+                <strong>Email:</strong> {{ $result }}<br>
             </li>
             <br>
         @endforeach
